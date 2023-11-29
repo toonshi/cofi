@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>heritage coffee website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon"href="c:\Users\sally\OneDrive\Desktop\CoffeShop\WhatsApp Image 2023-11-21 at 12.20.11.jpeg"type="image/.icon">
+        <link rel="stylesheet" href="https://stackpath.booystrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+    <body> 
+        <h2> HERITAGE COFFEE </h2>
+        <p>coffee & bakery</p>
+
+        <section class="header">
+            <nav>
+               <a href="home.html"><img src="c:\Users\sally\OneDrive\Desktop\CoffeShop\WhatsApp Image 2023-11-21 at 12.20.11.jpeg" height="150"></a> 
+                <div class="nav-links" id="navLinks">
+                    
+                    <i class="fa fa-times"onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="menu.html"> Menu</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="gifting.html">gifting <i class="fas fa-caret-down"></i></a>
+                         <div class="dropdown_menu">
+                            <ul>
+                                <li><a href="">holiday gift basket</a></li>
+                                <li><a href="">gift card</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+                </div>
+
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+                
+            </nav>
+           
+
+        </section>
+        <form>
+            <h2>Select your coffee:</h2>
+            <label for="coffee-type">Coffee Type:</label>
+            <select id="coffee-type">
+              <option value="espresso">Espresso</option>
+              <option value="brewed">Brewed Coffee</option>
+              <option value="specialty">Specialty Drinks</option>
+            </select>
+          
+            <h2>Customizations:</h2>
+            <label for="milk-type">Milk Type:</label>
+            <select id="milk-type">
+              <option value="regular">Regular Milk</option>
+              <option value="almond">Almond Milk</option>
+              <option value="oat">Oat Milk</option>
+              <option value="soy">Soy Milk</option>
+            </select>
+          
+            <label for="sweetener">Sweetener:</label>
+            <input type="checkbox" id="sweetener" name="sweetener" value="yes">
+            <label for="sweetener">Add Sweetener</label>
+          
+            <label for="flavor">Flavor:</label>
+            <select id="flavor">
+              <option value="none">None</option>
+              <option value="vanilla">Vanilla</option>
+              <option value="caramel">Caramel</option>
+              <option value="hazelnut">Hazelnut</option>
+            </select>
+          
+            <h2>Contact Information:</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+          
+            <h2>Payment Information:</h2>
+            <label for="card">Card Number:</label>
+            <input type="text" id="card" name="card">
+          
+            <label for="expiry">Expiry Date:</label>
+            <input type="text" id="expiry" name="expiry">
+          
+            <label for="cvv">CVV (Card Verification Value):</label>
+            <input type="text" id="cvv" name="cvv">
+            <br>
+            <p>For any queries call 0700002132</p>
+        </form>
+         <!--footer-->
+         <footer class="footer">
+            <div class="container">
+                <divv class="row">
+                    <div class="footer-col">
+                        <h4>Quick links</h4>
+                    <ul>
+                        <li><a href="home.html">home</a></li>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="menu.html">menu</a></li>
+                        <li><a href="order.html">order</a></li>
+                        <li><a href="gifting.html">gifting</a></li>
+                        <li><a href="feedback.html">feedback</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ways to Order</h4>
+                    <ul>
+                        <li><a href="order.html">order online</a></li>
+                        <li><a href="contact.html">find the shop</a></li>
+                        <li><a href="contact.html">call 0700002132</a></li>
+                    </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4><i>Heritage</i></h4>
+                    <p style="color: beige;">Were committed to great coffee, <br>great services and a fabulous <br>experience</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer-->
+    </body>
+</html> 
